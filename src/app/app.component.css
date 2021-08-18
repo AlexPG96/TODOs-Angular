@@ -1,0 +1,18 @@
+/*.container {
+	width: 70%;
+	margin: 20px auto 0px auto;
+	display: flex;
+	justify-content: space-around;
+	background-color: #fff;
+	border-radius: 15px;
+}*/
+
+.form {
+	width: 40%;
+	padding: 1.5rem;	
+}
+
+.cards {
+	width: 60%;
+	padding: 1.5rem;
+}

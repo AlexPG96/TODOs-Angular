@@ -1,0 +1,46 @@
+.formulario {
+	padding: 15px;
+}
+
+.form-group {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+
+input {
+    font-size: 14px;
+    margin: 0 .5em;
+    border-radius: 2em;
+    padding: 0.75em 1.5em;
+    background: none;
+    border: #e3e3e3 1px solid;
+    transition: border 250ms ease-out;
+}
+
+::placeholder{
+	color: #b3b3b3;
+}
+
+input:focus-visible {
+	border: #7fb3d5 1px solid;
+    outline: none;
+}
+
+.btn {
+	font-size: 14px;
+	margin: 0 .5em;
+	border-radius: 2em;
+	padding: 0.75em 1.5em;
+	cursor: pointer;
+	background: none;
+	color: #7fb3d5;
+	letter-spacing: 1px;
+	border: 1px solid #7fb3d5;
+	transition: 250ms ease-out;
+}	
+	
+.btn:hover, .btn:focus {
+    color: #fff;
+    background: #7fb3d5;
+}

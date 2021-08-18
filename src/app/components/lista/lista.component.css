@@ -1,0 +1,95 @@
+.lista {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.lista .tarea {
+	padding: 10px;
+	width: 45%;
+	margin: 5px;
+	border-radius: 15px;
+}
+
+.header_card {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #32363c;
+	padding: 0.5rem;
+}
+
+.header_card h3, .header_card p, .body_card p {
+	margin: 0px;
+}
+
+.body_card {
+	padding: 0.5rem;
+}
+
+.footer_card {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.footer_card button {
+	margin-top: 15px;
+}
+
+.completa {
+	background-color:  #76d7c4 ;
+	border: 1px solid  #48c9b0 
+}
+
+.completa .btn_card {
+	font-size: 14px;
+	margin: 0 .5em;
+	border-radius: 2em;
+	padding: 0.75em 1.5em;
+	cursor: pointer;
+	background: none;
+	border: 1px solid #17a589;
+	letter-spacing: 1px;
+	color: #17a589;
+	transition: 250ms ease-out;
+}
+
+.completa .btn_card:hover {
+    color: #fff;
+    background: #17a589;
+}
+
+.incompleta {
+	background-color:  #f1948a;
+	border: 1px solid  #ec7063;
+}
+
+.incompleta .btn_card {
+	font-size: 14px;
+	margin: 0 .5em;
+	border-radius: 2em;
+	padding: 0.75em 1.5em;
+	cursor: pointer;
+	background: none;
+	border: 1px solid #cb4335;
+	letter-spacing: 1px;
+	color: #cb4335;
+	transition: 250ms ease-out;
+}
+
+.incompleta .btn_card:hover {
+    color: #fff;
+    background:#cb4335;
+}
+
+.btn_remove{
+	font-size: 14px;
+	margin: 0 .5em;
+	border-radius: 2em;
+	padding: 0.5em 1em;
+	cursor: pointer;
+	background: none;
+	border: 1px solid #32363c;
+	letter-spacing: 1px;
+	transition: 250ms ease-out;
+}
